@@ -1,82 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <style>
+
+  body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+  body {font-size:16px;}
+  .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+  .w3-half img:hover{opacity:1}
+
+  #comp-ke1k1sf3inlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
+      pointer-events: auto;
+  }
+
+  #comp-ke1khgx5inlineContent {
+      height: auto;
+      width: 100%;
+      position: relative;
+  }
+
+  #comp-ke1khgx5inlineContent-gridWrapper {
+      pointer-events: none;
+  }
+
+  #comp-ke1khgx5inlineContent-gridContainer {
+      position: dynamic;
+      display: grid;
+      height: auto;
+      width: 100%;
+      min-height: auto;
+      grid-template-rows: 2fr;
+      grid-template-columns: 150%;
+  }
+
+  #comp-ke1khgx7 {
+      position: relative;
+      margin: 43px 0px 10px calc((100% - 653px) * 0.5);
+      left: 10px;
+      grid-area: 1 / 1 / 2 / 2;
+      justify-self: start;
+      align-self: start;
+  }
+
+  #comp-ke1khgx82 {
+      position: relative;
+      margin: 62px 0px 64px calc((100% - 653px) * 0.5);
+      left: 81px;
+      grid-area: 1 / 1 / 2 / 2;
+      justify-self: start;
+      align-self: start;
+  }
+
+  #comp-ke1khgxa {
+      position: relative;
+      margin: 95px 0px 10px calc((100% - 653px) * 0.5);
+      left: 435px;
+      grid-area: 1 / 1 / 2 / 2;
+      justify-self: start;
+      align-self: start;
+  }
+
+  #comp-ke1khgx5centeredContent {
+      position: relative;
+  }
+
+  #comp-ke1khgx5inlineContent-gridContainer > * {
+      pointer-events: auto;
+  }
+
+  #comp-ke1khgx5inlineContent-gridContainer > [id$="-rotated-wrapper"] {
+      pointer-events: none;
+  }
+
+  #comp-ke1k1sf3inlineContent {
+      height: auto;
+      width: 100%;
+      position: relative;
+  }
+
+  #comp-ke1k1sf3inlineContent-gridWrapper {
+      pointer-events: auto;
+  }
+
+  #comp-ke1k1sf3inlineContent-gridContainer {
+      position: static;
+      display: grid;
+      height: auto;
+      width: 100%;
+      min-height: auto;
+      grid-template-rows: 1fr;
+      grid-template-columns: 80%;
+  }
+
+  #comp-ke1jogu4 {
+      position: relative;
+      margin: 43px 0px 10px calc((100% - 653px) * 0.5);
+      left: 10px;
+      grid-area: 1 / 1 / 2 / 2;
+      justify-self: start;
+      align-self: start;
+  }
+
+  #comp-ke1jogu51 {
+      position: relative;
+      margin: 62px 0px 64px calc((100% - 653px) * 0.5);
+      left: 80px;
+      grid-area: 1 / 1 / 2 / 2;
+      justify-self: start;
+      align-self: start;
+  }
+
+  #comp-ke1jogu62 {
+      position: relative;
+      margin: 84px 0px 10px calc((100% - 653px) * 0.5);
+      left: 415px;
+      grid-area: 1 / 1 / 2 / 2;
+      justify-self: start;
+      align-self: start;
+  }
+
+  #comp-ke1k1sf3centeredContent {
+      position: relative;
+  }
+
+  #comp-ke1k1sf3inlineContent-gridContainer > * {
+      pointer-events: auto;
+  }
+
+  #comp-ke1k1sf3inlineContent-gridContainer > [id$="-rotated-wrapper"] {
+      pointer-events: none;
+  }
+
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  .column2 {
+    float: left;
+    width: 150%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .w3-container {
+      min-height: 150px; /* Adjust this value as needed */
+  }
+  .w3-light-grey img {
+      width: 100%;
+      height: auto; /* Maintains aspect ratio */
+  }
+  .header-large {
+    font-size: 20px; /* Adjust the font size as needed */
+    color: w3blue; /* Adjust the color as needed */
+    font-weight: bold;
+}
+
+.w3-text-blue {
+  color: blue; /* Adjust the color as needed */
+}
+
+.arrow {
+  font-size: 30px; /* Adjust size as needed */
+  color: blue; /* Adjust color as needed */
+}
+
+.step {
+  margin-bottom: 20px; /* Space between each step */
+}
+
+.step-number {
+  font-size: 30px; /* Adjust the size as needed */
+  color: #00B6F2; /* Blue color, adjust as needed */
+}
+
+.step-text {
+  font-size: 18px; /* Adjust the size as needed */
+  color: black; /* Text color, adjust as needed */
+}
+
+.step-image {
+  width: 30%; /* Adjust the size as needed */
+  margin-top: 10px; /* Space above the image */
+}
+
+.w3-col.m6 {
+    margin-bottom: 20px;  /* Space below each item */
+    padding: 10px;  /* Space around each item */
+}
+
+  </style>
+</head>
+
+<body>
+
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".site-nav-wrapper" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <i>
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+        </i>
+      </button>
+      
+      
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px" aria-label="Close Menu">Close Menu</a>
+    <div class="w3-container">
+        <h1 class="w3-padding-64"><b>PakUp</b></h1>
+    </div>
+    <div class="w3-bar-block">
+        <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+        <a href="#whatwedo" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">What we do</a> 
+        <a href="#whoarewe" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Who are we</a> 
+        <a href="#howitworks" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">How it works</a>
+        <a href="#ourteam" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Our Team</a> 
+        <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
+  <span>PakUp</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="Close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+  
+  <!-- What do we do/ header-->
+<div class="w3-container" style="margin-top:80px" id="home">
+  <div class="row">
+    <div class="column">
+      <h1 class="w3-jumbo">Pack Easy</h1>
+    </div>
+    <div class="column">
+      <img src="https://live.staticflickr.com/65535/50392855232_b61fca16ed_m.jpg" alt="Shipping" style="width:70%">
+    </div>
+  </div>
+</div>
+
+<div class="w3-container" id="whatwedo" style="margin-top:0px">
+  <h1 class="w3-xxxlarge w3-text-blue"><b>What we do</b></h1>
+  <hr style="width:50px;border:5px solid silver" class="w3-round">
+  <p class="header-large">Packing is our product!</p>
+  <p><span class="arrow">→</span> We are a complete turn-key service. We will take care of your entire moving out process; this includes everything related to the packing, storage, and shipping processes, as well as all returns.</p>
+  <p><span class="arrow">→</span> We will send in our specialized team, whom we call <strong>"The Muscle"</strong> at the time of our customers’ choosing. Sit back and relax while they operate the move-out process.</p>
+  <p><span class="arrow">→</span> Making your move-out stress and labor-free is our goal.</p>
+</div>
+
+
+
+
+  <!-- Who are we? -->
+<div class="w3-container" id="whoarewe" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-blue"><b>Who are we</b></h1>
+  <hr style="width:50px;border:5px solid silver" class="w3-round">
+  
+  <p><span class="arrow">→</span> We <u>founded PakUp</u> as a student-run business created BY Duke students FOR Duke students.</p>
+  
+  <p><span class="arrow">→</span> We <u>recognize the potential problems and stresses</u> that COVID-19 introduces to our community when we are forced to move out at the semester’s during finals.</p>
+  
+  <p><span class="arrow">→</span> We <u>believe that PakUp is a community-saving idea</u> that will facilitate an effortless and stress-free move-out and storage process for everyone.</p>
+  
+  <p><span class="arrow">→</span> We <u>want to strengthen our community;</u> make friends with “The Muscle” while they take care of your move out.</p>
+  
+  <p><span class="arrow">→</span> We <u>care about social impact:</u> PakUp guarantees a donation of 10% of all profits to Feeding America: a charity that operates a network of 200 food banks and 60,000 food pantries across the US, and is currently accepting additional donations to its COVID-19 Response Fund <a href="https://secure.feedingamerica.org/site/Donation2;jsessionid=00000000.app20020b?28371.donation=form1&idb=1530275180&df_id=28371">here</a>.</p>
+</div>
+  
+<!-- How it works -->
+<div class="w3-container" id="howitworks" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>How it works</b></h1>
+    <hr style="width:50px;border:5px solid silver" class="w3-round">
+
+    <!-- Step 1 -->
+    <div class="step">
+        <div style="display: flex; align-items: center;">
+            <h2 style="font-size:80px; color:#00B6F2; margin-right: 10px;">1.</h2>
+            <p style="font-size:38px; color:rgb(0, 182, 242);">Choose a bundle that fits your unique needs and schedule a move-out date</p>
+        </div>
+        <img src="https://live.staticflickr.com/65535/50395340561_9b1f1ca4dd_m.jpg" alt="Clock" style="width:20%;">
+    </div>
+
+    <!-- Step 2 -->
+    <div class="step" style="text-align: right;">
+        <div style="display: flex; align-items: center; justify-content: flex-end;">
+            <h2 style="font-size:80px; color:#00B6F2; margin-right: 10px;">2.</h2>
+            <p style="font-size:38px; color:rgb(0, 182, 242);">Label what belongings are to be <u>shipped</u> and what belongings are to be <u>stored</u></p>
+        </div>
+        <img src="https://live.staticflickr.com/65535/50397255758_f898a1b806_m.jpg" alt="Label" style="width:35%;">
+    </div>
+
+    <!-- Step 3 -->
+    <div class="step">
+        <div style="display: flex; align-items: center;">
+            <h2 style="font-size:80px; color:#00B6F2; margin-right: 10px;">3.</h2>
+            <p style="font-size:38px; color:rgb(0, 182, 242);">We come and take care of any and all <u>packing, moving, shipping</u> and <u>storage</u> of your belongings</p>
+        </div>
+        <img src="https://live.staticflickr.com/65535/50397255803_6ba55470a6_m.jpg" alt="Shipping" style="width:30%;">
+    </div>
+
+    <!-- Step 4 -->
+    <div class="step" style="text-align: right;">
+        <div style="display: flex; align-items: center; justify-content: flex-end;">
+            <h2 style="font-size:80px; color:#00B6F2; margin-right: 10px;">4.</h2>
+            <p style="font-size:38px; color:rgb(0, 182, 242);">You <u>sit back and relax</u> while we make the process of moving out of your dorm room as <u>easy</u> and <u>stress-free</u> as possible</p>
+        </div>
+        <img src="https://live.staticflickr.com/65535/50380118667_e6bdfd6a4d_m.jpg" alt="Relax" style="width:50%;">
+    </div>
+</div>
+
+
+
+
+  <!-- Our Team -->
+  <div class="w3-container" id="ourteam" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Our Team.</b></h1>
+    <hr style="width:50px;border:5px solid silver" class="w3-round">
+    <h3 style = "header-large">Meet our executive team!</h3>
+    <p>
+   
+
+    <!-- The Team Grid -->
+    <div class="w3-col m6 w3-margin-bottom">
+      <div class="w3-light-grey">
+          <img src="https://live.staticflickr.com/65535/50398454448_4b0b82c86f_c.jpg" alt="Jake" class="team-img">
+          <div class="w3-container">
+              <h3>Jake Rosen</h3>
+              <p class="w3-opacity">CEO & Founder</p>
+          </div>
+      </div>
+	</div>
+
+        <div class="w3-col m6 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <img src="https://live.staticflickr.com/65535/50399145381_801f5788e6_n.jpg" alt="Luke" class="team-img">
+                <div class="w3-container">
+                    <h3>Luke Bulcznski</h3>
+                    <p class="w3-opacity">Chief Financial Officer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col m6 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <img src="https://live.staticflickr.com/65535/50399307192_8db816abca_w.jpg" alt="Harry" class="team-img">
+                <div class="w3-container">
+                    <h3>Harry Landis</h3>
+                    <p class="w3-opacity">Chief of Marketing</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col m6 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <img src="https://live.staticflickr.com/65535/50398454598_cdc92d3452_n.jpg" alt="Alex" class="team-img">
+                <div class="w3-container">
+                    <h3>Alex Reed</h3>
+                    <p class="w3-opacity">Chief of Operations</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
  <!-- Packages / Pricing Tables -->
-  <div class="w3-container w3-left w3-white w3-padding-100" style="max-width:600px" id="packages">
-<h1 class="w3-xxxlarge w3-text-blue"><b>Packages</b></h1>
-  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
-  <p>
-<span class="w3-opacity w3-xsmall"><span style="font-size:8px;"> Small Boxes are 18x18x24 and Large Boxes are 22x22x22 (in.). They will be provided to you by the PakUp team </span></span>
-<br>
-<span class="w3-opacity w3-xsmall"><span style="font-size:8px;"> Small Furniture(i.e. lamp, nightstand, trashcan) and Large Furniture (i.e. Table, Armchair, Bookcase)  </span></span>
-  <!-- Basic -->
-  <div class="w3-row-padding" style="margin-top:32px">
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-light-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-24"><b>Free</b> Storage  <span style="font-size:10px;"><span class="w3-opacity"> Shipping fees still apply </span></span></li></li>
-        <li class="w3-padding-24"><b>One Small Box</b> </li>
-        <li class="w3-padding-24"><b>One Premium Product**</b> </li>
-        <li class="w3-padding-24"><b>One Small Furniture</b></li>
-        <li class="w3-padding-24"><b>A Photo with the Muscle!</b> </li>
-        <li class="w3-padding-24"><b>Insurance</b></li>
-        <li class="w3-padding-24">
-          <h2 class="w3-wide">$229</h2>
-          <span class="w3-opacity"> (saved $68!)</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
+<div class="w3-container w3-center w3-white w3-padding-100" style="max-width:600px" id="packages">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Packages</b></h1>
+    <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+    <p class="w3-opacity w3-xsmall">Small Boxes are 18x18x24 and Large Boxes are 22x22x22 (in.). They will be provided to you by the PakUp team</p>
+    <p class="w3-opacity w3-xsmall">Small Furniture (i.e., lamp, nightstand, trashcan) and Large Furniture (i.e., Table, Armchair, Bookcase)</p>
+
+    <!-- Basic Plan -->
+    <div class="w3-row-padding" style="margin-top:32px">
+        <div class="w3-third w3-section">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+                <li class="w3-light-grey w3-xlarge w3-padding-32">Basic</li>
+                <li class="w3-padding-24"><b>Free</b> Storage  <span class="w3-opacity"> Shipping fees still apply</span></li>
+                <li class="w3-padding-24"><b>One Small Box</b></li>
+                <li class="w3-padding-24"><b>One Premium Product**</b></li>
+                <li class="w3-padding-24"><b>One Small Furniture</b></li>
+                <li class="w3-padding-24"><b>A Photo with the Muscle!</b></li>
+                <li class="w3-padding-24"><b>Insurance</b></li>
+                <li class="w3-padding-24">
+                    <h2 class="w3-wide">$229</h2>
+                    <span class="w3-opacity">(saved $68!)</span>
+                </li>
+                <li class="w3-light-grey w3-padding-24">
+                    <button class="w3-button w3-black w3-padding-large" onclick="showAlert()">Sign Up</button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="w3-third">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+                <li class="w3-blue w3-xlarge w3-padding-48">Pro (Most popular!)</li>
+                <li class="w3-padding-16"><b>Free Storage</b> <span class="w3-opacity"> Shipping fees still apply</span></li>
+                <li class="w3-padding-16"><b>One Small Box + One Large Box</b></li>
+                <li class="w3-padding-16"><b>Two Premium Products**</b></li>
+                <li class="w3-padding-16"><b>Two Small Furniture</b></li>
+                <li class="w3-padding-16"><b>Decoration Removal</b></li>
+                <li class="w3-padding-16"><b>A Custom PakUp Shirt</b></li>
+                <li class="w3-padding-16"><b>A Photo with the Muscle!</b></li>
+                <li class="w3-padding-16"><b>Insurance</b></li>
+                <li class="w3-padding-16">
+                    <h2 class="w3-wide">$419</h2>
+                    <span class="w3-opacity">(saved $170!)</span>
+                </li>
+                <li class="w3-light-grey w3-padding-24">
+                    <button class="w3-button w3-black w3-padding-large" onclick="showAlert()">Sign Up</button>
+                </li>
+            </ul>
+        </div>
     
-    <!-- Pro -->
-    
-    <div class="w3-third">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-blue w3-xlarge w3-padding-48">Pro (Most popular!)</li>
-        <li class="w3-padding-16"><b>Free Storage</b><span style="font-size:10px;"><span class="w3-opacity"> Shipping fees still apply </span></span></li>
-        <li class="w3-padding-16"><b>One Small Box + One Large Box</b> </li>
-        <li class="w3-padding-16"><b>Two Premium Products**</b> </li>
-        <li class="w3-padding-16"><b>Two Small Furniture</b> </li>
-        <li class="w3-padding-16"><b>Decoration Removal</b> </li>
-        <li class="w3-padding-16"><b>A Custom PakUp Shirt</b> </li>
-        <li class="w3-padding-16"><b>A Photo with the Muscle!</b> </li>
-        <li class="w3-padding-16"><b>Insurance</b> </li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$419</h2>
-          <span class="w3-opacity">(saved $170!)</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-    
-    <!-- Premium -->
-    
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-light-grey w3-xlarge w3-padding-32">Premium (Best value!)</li>
-        <li class="w3-padding-16"><b>Free</b> Storage  <span style="font-size:10px;"><span class="w3-opacity"> Shipping fees still apply </span></span></li></li>
-        <li class="w3-padding-16"><b>One Large Box + One Heavy Duty Big Box</b> </li>
-        <li class="w3-padding-16"><b>Four Premium Products**</b> </li>
-        <li class="w3-padding-16"><b>3 Small Furniture</b> </li>
-         <li class="w3-padding-16"><b>Decoration Removal</b> </li>
-          <li class="w3-padding-16"><b>Furniture Dismantle <span style="font-size:10px;"><span class="w3-opacity"> If needed</p> </span></span></li></li></b> </li>
-        <li class="w3-padding-16"><b>2 Custom PakUp Shirts</b> </li>
-         <li class="w3-padding-16"><b>A Photo with your Musclemen</b> </li>
-          <li class="w3-padding-16"><b>Insurance</b> </li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$699 </h2>
-          <span class="w3-opacity">(saved $366!)</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
+        <!-- Premium Plan -->
+        <div class="w3-third w3-section">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+                <li class="w3-light-grey w3-xlarge w3-padding-32">Premium (Best value!)</li>
+                <li class="w3-padding-16"><b>Free</b> Storage <span class="w3-opacity"> Shipping fees still apply</span></li>
+                <li class="w3-padding-16"><b>One Large Box + One Heavy Duty Big Box</b></li>
+                <li class="w3-padding-16"><b>Four Premium Products**</b></li>
+                <li class="w3-padding-16"><b>3 Small Furniture</b></li>
+                <li class="w3-padding-16"><b>Decoration Removal</b></li>
+                <li class="w3-padding-16"><b>Furniture Dismantle If needed</b></li>
+                <li class="w3-padding-16"><b>2 Custom PakUp Shirts</b></li>
+                <li class="w3-padding-16"><b>A Photo with your Musclemen</b></li>
+                <li class="w3-padding-16"><b>Insurance</b></li>
+                <li class="w3-padding-16">
+                    <h2 class="w3-wide">$699</h2>
+                    <span class="w3-opacity">(saved $366!)</span>
+                </li>
+                <li class="w3-light-grey w3-padding-24">
+                    <button class="w3-button w3-black w3-padding-large" onclick="showAlert()">Sign Up</button>
+                </li>
+            </ul>
+        </div>
     </div>
     
     <!--A La Carte -->
     <div class="w3-row-padding" style="margin-top:32px">
-    <div class="w3">
+        <div class="w3-col">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-blue w3-large w3-padding-32">A La Carte </li>
         <li class="w3-padding-16"><b>Small Box pack (and ship)* -</b> $69 <span class="w3-opacity"><span style="font-size:10px;"> +shipping </span></span> </li>
@@ -89,7 +471,7 @@
         <li class="w3-padding-16"><b>Take down decorations -</b> $25</li>
         <li class="w3-padding-16"><b>Dismantle furniture -</b> $25</li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+          <button class="w3-button w3-black w3-padding-large" onclick="showAlert()">Sign Up</button>
         </li>
       </ul>
     </div>
@@ -103,3 +485,45 @@
    
   </div>
 </div>
+
+  
+
+<!-- End page content -->
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:10px;padding-right:20px"> <p class="Email us at"> Contact: thepakupteam@gmail.com </p><p title="Email us at" target="_blank" class="w3-hover-opacity"></a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+function showAlert() {
+    var alertBox = document.getElementById('alertBox');
+    alertBox.style.display = 'block';
+    setTimeout(function() {
+      alertBox.style.display = 'none';
+    }, 3000); // The message will disappear after 3000 milliseconds (3 seconds)
+  }
+</script>
+
+</body>
+</html>
+
+
+
